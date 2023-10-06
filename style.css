@@ -3,43 +3,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('arkaplan-resmi.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #fff; /* Metin rengini beyaz yapın */
+    background-color: #FFA6FC !important; 
 }
-
-header {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    background-color: rgba(255, 45, 85, 0.8); /* Başlık arka plan rengi: Pembe (saydamlık ekledik) */
-}
-
-header img {
-    max-width: 100%;
-    height: auto;
-    border: 5px solid #fff; /* Beyaz kenarlık ekleyin */
-    border-radius: 50%; /* Yuvarlak köşeler */
-    margin: 20px auto; /* Resmi ortala */
-}
-
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    background-color: #FFA6FC; 
 }
-
-.card {
-    background-color: rgba(255, 255, 255, 0.8); /* Kartların arka plan rengini beyaz yapın (saydamlık ekledik) */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    padding: 20px;
-    margin: 10px 0;
-    width: 100%;
-    text-align: center;
-}
-
 /* Responsive tasarım */
 @media (min-width: 768px) {
     .card {
@@ -47,14 +19,18 @@ main {
         margin: 10px;
     }
 }
-
-/* Özel arka plan rengi sınıfı */
-.bg-blackpink {
-    background-color: #ff2d55; /* Siyah ve pembe karışımı bir renk */
-    color: #fff; /* Metin rengini beyaz yapın */
+.blacked{
+    background-color: #121212 !important;
 }
-.bg-kara{
-    background-color: #121212;
-    color: #fff; /* Metin rengini beyaz yapın */
-
+.pard {
+    background-color: #444; /* Kartların arka plan rengi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.gage{
+    border-radius: 50% !important;
+    margin: auto;
 }

@@ -24,7 +24,7 @@ const years = Math.floor(ageInYears);
 const days = Math.floor((ageInYears - years) * 365.25);
 
 // Yaşı HTML'e ekleyin
-document.getElementById('currentAge').innerText = `${years} yaşında`;
+document.getElementById('currentAge').innerText = `${years}`;
 
 // Yaşadığı gün sayısı hesaplama
 const daysLived = Math.floor(ageInMilliseconds / (1000 * 60 * 60 * 24));
